@@ -1,0 +1,1126 @@
+@charset "utf-8";
+/* CSS Document */
+
+.maintitleheader{
+	text-align:center;
+	padding: 25px 0px 25px 0px;
+	margin-top: 25px;
+	margin-bottom: 75px;
+	margin-left:auto;
+	margin-right:auto;
+	border-bottom: 4px solid #3D3D3D;
+	border-top:4px solid #3D3D3D;
+}
+
+#boxrowcontainer{
+	margin-left:40px;
+}
+
+#boxrow1{
+	float:left;
+	height:250px;
+	width:660px;
+	margin: 0 200px 0 172px;
+}
+
+#boxrow2{
+	float:left;
+	height:250px;
+	width:864px;
+	margin: 0 48px 0 -2px;
+}
+
+#boxrow3{
+	float:left;
+	height:250px;
+	width:660px;
+	margin: -20px 200px 0 204px;
+}
+
+/*Calcium Box CSS*/
+#calcium{
+	float:left;
+	width:280px;
+	height:250px;
+}
+.calciumcontainer{
+	height:115px;
+	width:115px;
+}
+
+.calciumsmallbox{
+	display:block;
+	height:59px;
+	width:53px;
+	float:left;
+	position:absolute;
+    -webkit-transition: .5s ease-in-out; 
+	-moz-transition: .5s ease-in-out; 
+	-o-transition: .5s ease-in-out; 
+	transition: .5s ease-in-out;	
+	z-index:1;
+	background-image:url(http://www.tc.umn.edu/~zhan0718/Marchant%20Website/assets/boxbuttons/calcium-small.png);
+	background-size: contain;
+	background-repeat:no-repeat;
+	margin-left: 10px;
+    margin-top: 8px;
+}
+
+.calciumbigbox{
+	display:block;
+	float:left;
+	position:absolute;
+	margin-top:30px;
+	z-index:0;
+	margin-left:30px;
+	height: 115px;
+	width: 115px;
+	-webkit-transition: background-image .5s ease-in-out; 
+	-moz-transition: background-image .5s ease-in-out; 
+	-o-transition: background-image .5s ease-in-out; 
+	transition: background-image .5s ease-in-out;
+	background-image:url(http://www.tc.umn.edu/~zhan0718/Marchant%20Website/assets/boxbuttons/calcium-big.png);
+	background-size: contain;
+	background-repeat:no-repeat;
+}
+
+.calciumcontainer:hover > .calciumsmallbox{
+	-webkit-transform: translate(20px,22px); 
+	-moz-transform: translate(20px,22px); 
+	-o-transform: translate(20px,22px); 
+	-ms-transform: translate(20px,22px); 
+	transform: translate(20px,22px);
+	background-image:url(http://www.tc.umn.edu/~zhan0718/Marchant%20Website/assets/boxbuttons/calcium-small-glow.png);
+	background-size: contain;
+}
+
+.calciumcontainer:hover > .calciumbigbox{
+	background-image:url(http://www.tc.umn.edu/~zhan0718/Marchant%20Website/assets/boxbuttons/calcium-big-glow.png);
+	background-size: contain;
+}
+
+#box-link-small{
+	display:block;
+	height:74px;
+	width:78px;
+	float:left;
+	position:absolute;
+    -webkit-transition: .5s ease-in-out;
+	-moz-transition: .5s ease-in-out; 
+	-o-transition: .5s ease-in-out; 
+	transition: .5s ease-in-out;	
+	z-index:1;
+}
+
+
+/*Regeneration Box CSS*/
+.box-link-big{
+	display:block;
+	float:left;
+	position:absolute;
+	z-index:0;
+	height: 115px;
+	width: 115px;
+}
+
+.regeneration-box-link-1{
+	display:block;
+	float:left;
+	position:absolute;
+	z-index:0;
+	height: 29px;
+	width: 29px;
+}
+
+.regeneration-box-link-2{
+	display:block;
+	float:left;
+	position:absolute;
+	z-index:0;
+	height: 29px;
+	width: 29px;
+}
+
+#regeneration{
+	float:left;
+	width:230px;
+	height:230px;
+	margin-right:100px;
+}
+.regenerationcontainer{
+	display:block;
+	float:left;
+	position:absolute;
+	margin-top:30px;
+	z-index:1;
+	margin-left: 76px;
+	height: 115px;
+	width: 115px;
+	-webkit-transition: background-image .5s ease-in-out; 
+	-moz-transition: background-image .5s ease-in-out; 
+	-o-transition: background-image .5s ease-in-out; 
+	transition: background-image .5s ease-in-out;
+	background-image:url(http://www.tc.umn.edu/~zhan0718/Marchant%20Website/assets/boxbuttons/regenerationtest/regeneration.png);
+	background-size: contain;
+	background-repeat:no-repeat;
+}
+
+.regenerateanimationtop{
+	display:block;
+	height:29px;
+	width:29px;
+	float:left;
+	position:absolute;
+    -webkit-transition: .5s ease-in-out; 
+	-moz-transition: .5s ease-in-out; 
+	-o-transition: .5s ease-in-out; 
+	transition: .5s ease-in-out;	
+	z-index:0;
+	background-image:url(http://www.tc.umn.edu/~zhan0718/Marchant%20Website/assets/boxbuttons/regenerationtest/regeneration-horizontal-top.png);
+	background-size: contain;
+	margin-left: 20px;
+	background-repeat:no-repeat;
+}
+
+.regenerationcontainer:hover > .regenerateanimationtop{
+	-webkit-transform: translate(1.6em,0); 
+	-moz-transform: translate(1.6em,0); 
+	-o-transform: translate(1.6em,0); 
+	-ms-transform: translate(1.6em,0); 
+	transform: translate(1.6em,0);
+	background-image:url(http://www.tc.umn.edu/~zhan0718/Marchant%20Website/assets/boxbuttons/regenerationtest/regeneration-glow-horizontal-top.png);
+	background-size: contain;
+    background-repeat:no-repeat;
+}
+
+.regenerateanimationbottom{
+	display:block;
+	height:29px;
+	width:29px;
+	float:left;
+	position:absolute;
+    -webkit-transition: .5s ease-in-out; 
+	-moz-transition: .5s ease-in-out; 
+	-o-transition: .5s ease-in-out; 
+	transition: .5s ease-in-out;	
+	background-image:url(http://www.tc.umn.edu/~zhan0718/Marchant%20Website/assets/boxbuttons/regenerationtest/regeneration-horizontal-bottom.png);
+	background-size: contain;
+	margin-left: 69px;
+	margin-top: 86px;
+	background-repeat:no-repeat;
+}
+
+.regenerationcontainer:hover > .regenerateanimationbottom{
+	-webkit-transform: translate(-1.7em,0); 
+	-moz-transform: translate(-1.7em,0); 
+	-o-transform: translate(-1.7em,0); 
+	-ms-transform: translate(-1.7em,0); 
+	transform: translate(-1.7em,0);
+	background-image:url(http://www.tc.umn.edu/~zhan0718/Marchant%20Website/assets/boxbuttons/regenerationtest/regeneration-glow-horizontal-bottom.png);
+	background-size: contain;
+    background-repeat:no-repeat;
+}
+
+.regenerateanimationright{
+	display:block;
+	height:29px;
+	width:29px;
+	float:left;
+	position:absolute;
+    -webkit-transition: .5s ease-in-out; 
+	-moz-transition: .5s ease-in-out; 
+	-o-transition: .5s ease-in-out; 
+	transition: .5s ease-in-out;	
+	z-index:0;
+	background-image:url(http://www.tc.umn.edu/~zhan0718/Marchant%20Website/assets/boxbuttons/regenerationtest/regeneration-vertical-right.png);
+	background-size: contain;
+	margin-left: 86px;
+    margin-top: 18px;
+	background-repeat:no-repeat;
+}
+.regenerationcontainer:hover > .regenerateanimationright{
+	-webkit-transform: translate(0,1.7em); 
+	-moz-transform: translate(0,1.7em); 
+	-o-transform: translate(0,1.7em); 
+	-ms-transform: translate(0,1.7em); 
+	transform: translate(0,1.7em);
+	background-image:url(http://www.tc.umn.edu/~zhan0718/Marchant%20Website/assets/boxbuttons/regenerationtest/regeneration-glow-vertical-right.png);
+	background-size: contain;
+    background-repeat:no-repeat;
+}
+
+.regenerateanimationleft{
+	display:block;
+	height:29px;
+	width:29px;
+	float:left;
+	position:absolute;
+    -webkit-transition: .5s ease-in-out; 
+	-moz-transition: .5s ease-in-out; 
+	-o-transition: .5s ease-in-out; 
+	transition: .5s ease-in-out;	
+	z-index:0;
+	background-image:url(http://www.tc.umn.edu/~zhan0718/Marchant%20Website/assets/boxbuttons/regenerationtest/regeneration-vertical-left.png);
+	background-size: contain;
+	margin-left: 0px;
+    margin-top: 69px;
+	background-repeat:no-repeat;
+}
+.regenerationcontainer:hover > .regenerateanimationleft{
+	-webkit-transform: translate(0,-2.1em); 
+	-moz-transform: translate(0,-2.1em); 
+	-o-transform: translate(0,-2.1em); 
+	-ms-transform: translate(0,-2.1em); 
+	transform: translate(0,-2.1em);
+	background-image:url(http://www.tc.umn.edu/~zhan0718/Marchant%20Website/assets/boxbuttons/regenerationtest/regeneration-glow-vertical-left.png);
+	background-size: contain;
+	background-repeat:no-repeat;
+
+}
+
+.regenerationcontainer:hover{
+	background-image:url(http://www.tc.umn.edu/~zhan0718/Marchant%20Website/assets/boxbuttons/regenerationtest/regeneration-glow.png);
+	background-size: contain;
+}
+
+/*Contact Info CSS*/
+#contactinfo{
+	float:left;
+	width:288px;
+	height:250px;
+}
+
+#contactinfocontainer{
+	width:115px;
+	height:115px;
+	margin-left:50px;
+}
+#contactinfobox{
+	float:left;
+	position:absolute;
+    -webkit-transition: .5s ease-in-out; 
+	-moz-transition: .5s ease-in-out; 
+	-o-transition: .5s ease-in-out; 
+	transition: .5s ease-in-out;	
+	z-index:1;
+	width:115px;
+	height:115px;
+	background-image:url(http://www.tc.umn.edu/~zhan0718/Marchant%20Website/assets/boxbuttons/contact-info-box.png);
+	background-repeat:no-repeat;
+}
+
+#contactinfocontainer:hover > #contactinfobox{
+	background-image:url(http://www.tc.umn.edu/~zhan0718/Marchant%20Website/assets/boxbuttons/contact-info-box-glow2.png);
+	background-repeat:no-repeat;
+}
+#contactinfoarrow{
+	float:left;
+	position:absolute;
+	-webkit-transition: .5s ease-in-out; 
+	-moz-transition: .5s ease-in-out; 
+	-o-transition: .5s ease-in-out; 
+	transition: .5s ease-in-out;
+	width:54px;
+	height:117px;
+	background-image:url(http://www.tc.umn.edu/~zhan0718/Marchant%20Website/assets/boxbuttons/contact-info-arrow.png);
+	margin-left: 30px;
+    margin-top: -48px;
+	z-index:0;
+	background-repeat:no-repeat;
+}
+#contact-info-arrow-link{
+	display:block;
+	float:left;
+	position:absolute;
+	width:54px;
+	height:117px;
+	-webkit-transition: .5s ease-in-out; 
+	-moz-transition: .5s ease-in-out; 
+	-o-transition: .5s ease-in-out; 
+	transition: .5s ease-in-out;
+}
+
+#contactinfocontainer:hover > #contactinfoarrow{
+	-webkit-transform: translate(0,1em); 
+	-moz-transform: translate(0,1em); 
+	-o-transform: translate(0,1em); 
+	-ms-transform: translate(0,1em); 
+	transform: translate(0,1em);
+	background-image:url(http://www.tc.umn.edu/~zhan0718/Marchant%20Website/assets/boxbuttons/contact-info-arrow-glow.png);
+	background-repeat:no-repeat;
+}
+
+
+/*Publications CSS*/
+#publications{
+	float:left;
+	width:288px;
+	height:250px;
+	}
+
+#publicationscontainer{
+	width:115px;
+	height:115px;
+	margin-left:77px;
+}
+
+#publicationsbox{
+	float:left;
+	position:absolute;
+    -webkit-transition: .5s ease-in-out; 
+	-moz-transition: .5s ease-in-out; 
+	-o-transition: .5s ease-in-out; 
+	transition: .5s ease-in-out;	
+	width:115px;
+	height:115px;
+	z-index:1;
+	background-image:url(http://www.tc.umn.edu/~zhan0718/Marchant%20Website/assets/boxbuttons/publications/publications-box.png);
+	background-repeat:no-repeat;
+}
+
+#publicationscontainer:hover > #publicationsbox{
+	background-image:url(http://www.tc.umn.edu/~zhan0718/Marchant%20Website/assets/boxbuttons/publications/publications-box-glow2.png);
+	background-repeat:no-repeat;
+}
+
+#publicationsarrow{
+	float:left;
+	position:absolute;
+    -webkit-transition: .5s ease-in-out; 
+	-moz-transition: .5s ease-in-out; 
+	-o-transition: .5s ease-in-out; 
+	transition: .5s ease-in-out;	
+	width:119px;
+	height:55px;
+	z-index:0;
+	background-image:url(http://www.tc.umn.edu/~zhan0718/Marchant%20Website/assets/boxbuttons/publications/publications-arrow.png);
+	background-repeat:no-repeat;
+	margin-left: 75px;
+    margin-top: 31px;
+}
+
+#publicationscontainer:hover > #publicationsarrow{
+	background-image:url(http://www.tc.umn.edu/~zhan0718/Marchant%20Website/assets/boxbuttons/publications/publications-arrow-glow.png);
+	background-repeat:no-repeat;
+	-webkit-transform: translate(1em,0em); 
+	-moz-transform: translate(1em,0em); 
+	-o-transform: translate(1em,0em); 
+	-ms-transform: translate(1em,0em); 
+	transform: translate(1em,0em);
+}
+#pub-arrow-link{
+	display:block;
+	width:110px;
+	height:55px;
+}
+
+
+/*Outreach Box CSS*/
+#outreach{
+	float:left;
+	width:288px;
+	height:250px;
+	}
+	
+#outreachcontainer{
+	width:115px;
+	height:115px;
+	margin-left: 126px; /*94px for even boxes*/
+}
+
+#outreachbox{
+	float:left;
+	position:absolute;
+    -webkit-transition: .5s ease-in-out; 
+	-moz-transition: .5s ease-in-out; 
+	-o-transition: .5s ease-in-out; 
+	transition: .5s ease-in-out;	
+	width:115px;
+	height:115px;
+	z-index:1;
+	background-image:url(http://www.tc.umn.edu/~zhan0718/Marchant%20Website/assets/boxbuttons/outreach/outreach-box.png);
+	background-repeat:no-repeat;
+}
+
+#outreachcontainer:hover > #outreachbox{
+	background-image:url(http://www.tc.umn.edu/~zhan0718/Marchant%20Website/assets/boxbuttons/outreach/outreach-box-glow2.png);
+	background-repeat:no-repeat;
+}
+
+#outreacharrowup{
+	float:left;
+	position:absolute;
+    -webkit-transition: .5s ease-in-out; 
+	-moz-transition: .5s ease-in-out; 
+	-o-transition: .5s ease-in-out; 
+	transition: .5s ease-in-out;	
+	width:55px;
+	height:109px;
+	z-index:0;
+	background-image:url(http://www.tc.umn.edu/~zhan0718/Marchant%20Website/assets/boxbuttons/outreach/outreach-arrow-up.png);
+	background-repeat:no-repeat;
+	margin-top: -65px;
+	margin-left: 30px;
+}
+
+#outreachcontainer:hover > #outreacharrowup{
+	background-image:url(http://www.tc.umn.edu/~zhan0718/Marchant%20Website/assets/boxbuttons/outreach/outreach-arrow-up-glow.png);
+	background-repeat:no-repeat;
+	-webkit-transform: translate(0em,-1em); 
+	-moz-transform: translate(0em,-1em); 
+	-o-transform: translate(0em,-1em); 
+	-ms-transform: translate(0em,-1em); 
+	transform: translate(0em,-1em);
+}
+
+#outreacharrowright{
+	float:left;
+	position:absolute;
+    -webkit-transition: .5s ease-in-out; 
+	-moz-transition: .5s ease-in-out; 
+	-o-transition: .5s ease-in-out; 
+	transition: .5s ease-in-out;	
+	width:109px;
+	height:55px;
+	z-index:0;
+	background-image:url(http://www.tc.umn.edu/~zhan0718/Marchant%20Website/assets/boxbuttons/outreach/outreach-arrow-right.png);
+	background-repeat:no-repeat;
+	margin-top:30px;
+	margin-left: 72px;
+}
+
+#outreachcontainer:hover > #outreacharrowright{
+	background-image:url(http://www.tc.umn.edu/~zhan0718/Marchant%20Website/assets/boxbuttons/outreach/outreach-arrow-right-glow.png);
+	background-repeat:no-repeat;
+	-webkit-transform: translate(1em,0em); 
+	-moz-transform: translate(1em,0em); 
+	-o-transform: translate(1em,0em); 
+	-ms-transform: translate(1em,0em); 
+	transform: translate(1em,0em);
+}
+
+#outreacharrowdown{
+	float:left;
+	position:absolute;
+    -webkit-transition: .5s ease-in-out; 
+	-moz-transition: .5s ease-in-out; 
+	-o-transition: .5s ease-in-out; 
+	transition: .5s ease-in-out;	
+	width:55px;
+	height:109px;
+	z-index:0;
+	background-image:url(http://www.tc.umn.edu/~zhan0718/Marchant%20Website/assets/boxbuttons/outreach/outreach-arrow-down.png);
+	background-repeat:no-repeat;
+	margin-top:73px;
+	margin-left: 30px;
+}
+
+#outreachcontainer:hover > #outreacharrowdown{
+	background-image:url(http://www.tc.umn.edu/~zhan0718/Marchant%20Website/assets/boxbuttons/outreach/outreach-arrow-down-glow.png);
+	background-repeat:no-repeat;
+	-webkit-transform: translate(0em,1em); 
+	-moz-transform: translate(0em,1em); 
+	-o-transform: translate(0em,1em); 
+	-ms-transform: translate(0em,1em); 
+	transform: translate(0em,1em);
+}
+
+
+#outreacharrowleft{
+	float:left;
+	position:absolute;
+    -webkit-transition: .5s ease-in-out; 
+	-moz-transition: .5s ease-in-out; 
+	-o-transition: .5s ease-in-out; 
+	transition: .5s ease-in-out;	
+	width:109px;
+	height:55px;
+	z-index:0;
+	background-image:url(http://www.tc.umn.edu/~zhan0718/Marchant%20Website/assets/boxbuttons/outreach/outreach-arrow-left.png);
+	background-repeat:no-repeat;
+	margin-top:30px;
+	margin-left: -69px;
+}
+
+#outreachcontainer:hover > #outreacharrowleft{
+	background-image:url(http://www.tc.umn.edu/~zhan0718/Marchant%20Website/assets/boxbuttons/outreach/outreach-arrow-left-glow.png);
+	background-repeat:no-repeat;
+	-webkit-transform: translate(-1em,0em); 
+	-moz-transform: translate(-1em,0em); 
+	-o-transform: translate(-1em,0em); 
+	-ms-transform: translate(-1em,0em); 
+	transform: translate(-1em,0em);
+}
+
+#outreach-arrow-up-link{
+	display:block;
+	width:55px;
+	height:109px;
+}
+#outreach-arrow-right-link{
+	display:block;
+	width:109px;
+	height:55px;
+}
+
+#outreach-arrow-down-link{
+	display:block;
+	width:55px;
+	height:109px;
+}
+#outreach-arrow-left-link{
+	display:block;
+	width:109px;
+	height:55px;
+}
+
+
+/*Lab Members Box CSS*/
+#labmembers{
+	float:left;
+	width:280px;
+	height:250px;
+}
+#labmemberscontainer{
+	height:144px;
+	width:144px;
+}
+
+#labmembersbox{
+	float:left;
+	position:absolute;
+    -webkit-transition: .5s ease-in-out; 
+	-moz-transition: .5s ease-in-out; 
+	-o-transition: .5s ease-in-out; 
+	transition: .5s ease-in-out;	
+	width:115px;
+	height:115px;
+	z-index:0;
+	background-image:url(http://www.tc.umn.edu/~zhan0718/Marchant%20Website/assets/boxbuttons/labmembers/lab-members-box.png);
+	background-repeat:no-repeat;
+}
+
+#labmemberscontainer:hover > #labmembersbox{
+	background-image:url(http://www.tc.umn.edu/~zhan0718/Marchant%20Website/assets/boxbuttons/labmembers/lab-members-box-glow.png);
+	background-repeat:no-repeat;
+}
+
+#circle1{
+	float:left;
+	position:absolute;
+	-webkit-transition: .5s ease-in-out; 
+	-moz-transition: .5s ease-in-out; 
+	-o-transition: .5s ease-in-out; 
+	transition: .5s ease-in-out;
+	width:32px;
+	height:30px;
+	background-image:url(http://www.tc.umn.edu/~zhan0718/Marchant%20Website/assets/boxbuttons/labmembers/circle.png);
+	background-repeat:no-repeat;
+	margin-left:59px;
+	margin-top:17px;
+	z-index:1;
+}
+
+#labmemberscontainer:hover > #circle1{
+	background-image:url(http://www.tc.umn.edu/~zhan0718/Marchant%20Website/assets/boxbuttons/labmembers/circle-glow3.png);
+	background-repeat:no-repeat;
+	-webkit-transform: translate(-37px,0em); 
+	-moz-transform: translate(-37px,0em); 
+	-o-transform: translate(-37px,0em); 
+	-ms-transform: translate(-37px,0em); 
+	transform: translate(-37px,0em);
+}
+
+#circle2{
+	float:left;
+	position:absolute;
+	-webkit-transition: .5s ease-in-out; 
+	-moz-transition: .5s ease-in-out; 
+	-o-transition: .5s ease-in-out; 
+	transition: .5s ease-in-out;
+	width:32px;
+	height:30px;
+	background-image:url(http://www.tc.umn.edu/~zhan0718/Marchant%20Website/assets/boxbuttons/labmembers/circle.png);
+	background-repeat:no-repeat;
+	margin-left:22px;
+	margin-top:17px;
+	z-index:1;
+}
+
+#labmemberscontainer:hover > #circle2{
+	background-image:url(http://www.tc.umn.edu/~zhan0718/Marchant%20Website/assets/boxbuttons/labmembers/circle-glow3.png);
+	background-repeat:no-repeat;
+	-webkit-transform: translate(-6px,25px);
+	-moz-transform: translate(-6px,25px);
+	-o-transform: translate(-6px,25px);
+	-ms-transform: translate(-6px,25px);
+	transform: translate(-6px,25px));
+	
+}
+
+#circle3{
+	float:left;
+	position:absolute;
+	-webkit-transition: .5s ease-in-out; 
+	-moz-transition: .5s ease-in-out; 
+	-o-transition: .5s ease-in-out; 
+	transition: .5s ease-in-out;
+	width:32px;
+	height:39px;
+	background-image:url(http://www.tc.umn.edu/~zhan0718/Marchant%20Website/assets/boxbuttons/labmembers/circle.png);
+	background-repeat:no-repeat;
+	margin-left:66px;
+	margin-top:42px;
+	z-index:1;
+}
+
+#labmemberscontainer:hover > #circle3{
+	background-image:url(http://www.tc.umn.edu/~zhan0718/Marchant%20Website/assets/boxbuttons/labmembers/circle-glow3.png);
+	background-repeat:no-repeat;
+	-webkit-transform: translate(-7px,-25px);
+	-moz-transform: translate(-7px,-25px);
+	-o-transform: translate(-7px,-25px);
+	-ms-transform: translate(-7px,-25px);
+	transform: translate(-7px,-25px);
+}
+
+
+#circle4{
+	float:left;
+	position:absolute;
+	-webkit-transition: .5s ease-in-out; 
+	-moz-transition: .5s ease-in-out; 
+	-o-transition: .5s ease-in-out; 
+	transition: .5s ease-in-out;
+	width:32px;
+	height:30px;
+	background-image:url(http://www.tc.umn.edu/~zhan0718/Marchant%20Website/assets/boxbuttons/labmembers/circle.png);
+	background-repeat:no-repeat;
+	margin-left:16px;
+	margin-top:42px;
+	z-index:1;
+}
+
+
+#labmemberscontainer:hover > #circle4{
+	background-image:url(http://www.tc.umn.edu/~zhan0718/Marchant%20Website/assets/boxbuttons/labmembers/circle-glow3.png);
+	background-repeat:no-repeat;
+	-webkit-transform: translate(7px,26px);
+	-moz-transform: translate(7px,26px);
+	-o-transform: translate(7px,26px);
+	-ms-transform: translate(7px,26px);
+	transform: translate(7px,26px);
+}
+
+
+#circle5{
+	float:left;
+	position:absolute;
+	-webkit-transition: .5s ease-in-out; 
+	-moz-transition: .5s ease-in-out; 
+	-o-transition: .5s ease-in-out; 
+	transition: .5s ease-in-out;
+	width:32px;
+	height:30px;
+	background-image:url(http://www.tc.umn.edu/~zhan0718/Marchant%20Website/assets/boxbuttons/labmembers/circle.png);
+	background-repeat:no-repeat;
+	margin-left:59px;
+	margin-top:68px;
+	z-index:1;
+}
+
+
+#labmemberscontainer:hover > #circle5{
+	background-image:url(http://www.tc.umn.edu/~zhan0718/Marchant%20Website/assets/boxbuttons/labmembers/circle-glow3.png);
+	background-repeat:no-repeat;
+	-webkit-transform: translate(7px,-26px);
+	-moz-transform: translate(7px,-26px);
+	-o-transform: translate(7px,-26px);
+	-ms-transform: translate(7px,-26px);
+	transform: translate(7px,-26px);
+}
+
+#circle6{
+	float:left;
+	position:absolute;
+	-webkit-transition: .5s ease-in-out; 
+	-moz-transition: .5s ease-in-out; 
+	-o-transition: .5s ease-in-out; 
+	transition: .5s ease-in-out;
+	width:32px;
+	height:30px;
+	background-image:url(http://www.tc.umn.edu/~zhan0718/Marchant%20Website/assets/boxbuttons/labmembers/circle.png);
+	background-repeat:no-repeat;
+	margin-left:23px;
+	margin-top:68px;
+	z-index:1;
+}	
+
+
+#labmemberscontainer:hover > #circle6{
+	background-image:url(http://www.tc.umn.edu/~zhan0718/Marchant%20Website/assets/boxbuttons/labmembers/circle-glow3.png);
+	background-repeat:no-repeat;
+		-webkit-transform: translate(36px,0em); 
+	-moz-transform: translate(36px,0em); 
+	-o-transform: translate(36px,0em); 
+	-ms-transform: translate(36px,0em); 
+	transform: translate(36px,0em);
+}
+
+.circle-link{
+	position:absolute;
+	display:block;
+	width:32px;
+	height:30px;
+}
+
+/*Department Box CSS*/
+#department{
+	float:left;
+	width:280px;
+	height:250px;
+}
+
+#departmentcontainer{
+	height:115px;
+	width:115px;
+	margin-left:45px;
+}
+
+#departmentbox{
+	float:left;
+	position:absolute;
+    -webkit-transition: .5s ease-in-out; 
+	-moz-transition: .5s ease-in-out; 
+	-o-transition: .5s ease-in-out; 
+	transition: .5s ease-in-out;	
+	width:144px;
+	height:144px;
+	z-index:0;
+	background-image:url(http://www.tc.umn.edu/~zhan0718/Marchant%20Website/assets/boxbuttons/department/department-box.png);
+	background-repeat:no-repeat;
+}
+
+#departmentcontainer:hover > #departmentbox{
+	background-image:url(http://www.tc.umn.edu/~zhan0718/Marchant%20Website/assets/boxbuttons/department/department-box-glow.png);
+	background-repeat:no-repeat;
+}
+
+#deptcircle1{
+	float:left;
+	position:absolute;
+	-webkit-transition: .5s ease-in-out; 
+	-moz-transition: .5s ease-in-out; 
+	-o-transition: .5s ease-in-out; 
+	transition: .5s ease-in-out;
+	width:40px;
+	height:38px;
+	background-image:url(http://www.tc.umn.edu/~zhan0718/Marchant%20Website/assets/boxbuttons/labmembers/circle.png);
+	background-repeat:no-repeat;
+	margin-left: -36px;
+	margin-top: 111px;
+}	
+
+#departmentcontainer:hover > #deptcircle1{
+	background-image:url(http://www.tc.umn.edu/~zhan0718/Marchant%20Website/assets/boxbuttons/labmembers/circle-glow3.png);
+	background-repeat:no-repeat;
+	-webkit-transform: translate(154px,0); 
+	-moz-transform: translate(154px,0); 
+	-o-transform: translate(154px,0); 
+	-ms-transform: translate(154px,0); 
+	transform: translate(154px,0);
+}
+
+#deptcircle2{
+	float:left;
+	position:absolute;
+	-webkit-transition: .5s ease-in-out; 
+	-moz-transition: .5s ease-in-out; 
+	-o-transition: .5s ease-in-out; 
+	transition: .5s ease-in-out;
+	width:40px;
+	height:38px;
+	background-image:url(http://www.tc.umn.edu/~zhan0718/Marchant%20Website/assets/boxbuttons/labmembers/circle.png);
+	background-repeat:no-repeat;
+	margin-left: -72px;
+	margin-top: 42px;
+}	
+
+#departmentcontainer:hover > #deptcircle2{
+	background-image:url(http://www.tc.umn.edu/~zhan0718/Marchant%20Website/assets/boxbuttons/labmembers/circle-glow3.png);
+	background-repeat:no-repeat;
+	-webkit-transform: translate(114px,116px);
+	-moz-transform: translate(114px,116px);
+	-o-transform: translate(114px,116px);
+	-ms-transform: translate(114px,116px);
+	transform: translate(114px,116px);
+}
+
+#deptcircle3{
+	float:left;
+	position:absolute;
+	-webkit-transition: .5s ease-in-out; 
+	-moz-transition: .5s ease-in-out; 
+	-o-transition: .5s ease-in-out; 
+	transition: .5s ease-in-out;
+	width:40px;
+	height:38px;
+	background-image:url(http://www.tc.umn.edu/~zhan0718/Marchant%20Website/assets/boxbuttons/labmembers/circle.png);
+	background-repeat:no-repeat;
+	margin-left: -36px;
+	margin-top: -25px;
+}	
+
+#departmentcontainer:hover > #deptcircle3{
+	background-image:url(http://www.tc.umn.edu/~zhan0718/Marchant%20Website/assets/boxbuttons/labmembers/circle-glow3.png);
+	background-repeat:no-repeat;
+	-webkit-transform: translate(0,136px); 
+	-moz-transform: translate(0,136px); 
+	-o-transform: translate(0,136px); 
+	-ms-transform: translate(0,136px); 
+	transform: translate(0,136px);
+}
+
+#deptcircle4{
+	float:left;
+	position:absolute;
+	-webkit-transition: .5s ease-in-out; 
+	-moz-transition: .5s ease-in-out; 
+	-o-transition: .5s ease-in-out; 
+	transition: .5s ease-in-out;
+	width:40px;
+	height:38px;
+	background-image:url(http://www.tc.umn.edu/~zhan0718/Marchant%20Website/assets/boxbuttons/labmembers/circle.png);
+	background-repeat:no-repeat;
+	margin-left: 118px;
+    margin-top: 111px;
+}	
+
+#departmentcontainer:hover > #deptcircle4{
+	background-image:url(http://www.tc.umn.edu/~zhan0718/Marchant%20Website/assets/boxbuttons/labmembers/circle-glow3.png);
+	background-repeat:no-repeat;
+	-webkit-transform: translate(0,-136px); 
+	-moz-transform: translate(0,-136px); 
+	-o-transform: translate(0,-136px); 
+	-ms-transform: translate(0,-136px); 
+	transform: translate(0,-136px);
+}
+#deptcircle5{
+	float:left;
+	position:absolute;
+	-webkit-transition: .5s ease-in-out; 
+	-moz-transition: .5s ease-in-out; 
+	-o-transition: .5s ease-in-out; 
+	transition: .5s ease-in-out;
+	width:40px;
+	height:38px;
+	background-image:url(http://www.tc.umn.edu/~zhan0718/Marchant%20Website/assets/boxbuttons/labmembers/circle.png);
+	background-repeat:no-repeat;
+	margin-left: 156px;
+    margin-top: 42px;
+}	
+
+#departmentcontainer:hover > #deptcircle5{
+	background-image:url(http://www.tc.umn.edu/~zhan0718/Marchant%20Website/assets/boxbuttons/labmembers/circle-glow3.png);
+	background-repeat:no-repeat;
+		-webkit-transform: translate(-116px,-116px);
+	-moz-transform: translate(-116px,-116px);
+	-o-transform: translate(-116px,-116px);
+	-ms-transform: translate(-116px,-116px);
+	transform: translate(-116px,-116px);
+}
+
+#deptcircle6{
+	float:left;
+	position:absolute;
+	-webkit-transition: .5s ease-in-out; 
+	-moz-transition: .5s ease-in-out; 
+	-o-transition: .5s ease-in-out; 
+	transition: .5s ease-in-out;
+	width:40px;
+	height:38px;
+	background-image:url(http://www.tc.umn.edu/~zhan0718/Marchant%20Website/assets/boxbuttons/labmembers/circle.png);
+	background-repeat:no-repeat;
+	margin-left: 118px;
+	margin-top: -25px;
+}	
+
+#departmentcontainer:hover > #deptcircle6{
+	background-image:url(http://www.tc.umn.edu/~zhan0718/Marchant%20Website/assets/boxbuttons/labmembers/circle-glow3.png);
+	background-repeat:no-repeat;
+	-webkit-transform: translate(-154px,0); 
+	-moz-transform: translate(-154px,0); 
+	-o-transform: translate(-154px,0); 
+	-ms-transform: translate(-154px,0); 
+	transform: translate(-154px,0);
+}
+
+/*Text Box CSS*/
+
+#calciumtext{
+	position: absolute;
+	display: block;
+	text-align: center;
+	opacity: 0;
+	-webkit-transition: .5s ease-in-out;
+	-moz-transition: .5s ease-in-out; 
+	-o-transition: .5s ease-in-out; 
+	transition: .5s ease-in-out;
+	color:#FFF;
+	margin-top: 160px;
+	width: 200px;
+	margin-left: -12px;
+}
+
+.calciumcontainer:hover > #calciumtext{
+    opacity: 1;
+	-webkit-transform: translate(0em,-.5em);
+    -moz-transform: translate(0em,-.5em);
+    -o-transform: translate(0em,-.5em);
+    -ms-transform: translate(0em,-.5em);
+    transform: translate(0em,-.5em);
+}
+
+#regenerationtext{
+	position: absolute;
+	display: block;
+	text-align: center;
+	opacity: 0;
+	-webkit-transition: .5s ease-in-out;
+	-moz-transition: .5s ease-in-out; 
+	-o-transition: .5s ease-in-out; 
+	transition: .5s ease-in-out;
+	color:#FFF;
+	margin-top: 132px;
+    width: 144px;
+	margin-left: -22px;
+}
+
+.regenerationcontainer:hover > #regenerationtext{
+    opacity: 1;
+	-webkit-transform: translate(0em,-.5em);
+    -moz-transform: translate(0em,-.5em);
+    -o-transform: translate(0em,-.5em);
+    -ms-transform: translate(0em,-.5em);
+    transform: translate(0em,-.5em);
+}
+
+#contactinfotext{
+	position: absolute;
+	display: block;
+	text-align: center;
+	opacity: 0;
+	-webkit-transition: .5s ease-in-out;
+	-moz-transition: .5s ease-in-out; 
+	-o-transition: .5s ease-in-out; 
+	transition: .5s ease-in-out;
+	color:#FFF;
+	margin-top: 130px;
+    width: 144px;
+	margin-left: -50px;
+}
+
+#contactinfocontainer:hover > #contactinfotext{
+    opacity: 1;
+	-webkit-transform: translate(0em,-.5em);
+    -moz-transform: translate(0em,-.5em);
+    -o-transform: translate(0em,-.5em);
+    -ms-transform: translate(0em,-.5em);
+    transform: translate(0em,-.5em);
+}
+
+#publicationstext{
+	position: absolute;
+	display: block;
+	text-align: center;
+	opacity: 0;
+	-webkit-transition: .5s ease-in-out;
+	-moz-transition: .5s ease-in-out; 
+	-o-transition: .5s ease-in-out; 
+	transition: .5s ease-in-out;
+	color:#FFF;
+	margin-top: 130px;
+    width: 144px;
+	margin-left: -14px;
+}
+
+#publicationscontainer:hover > #publicationstext{
+    opacity: 1;
+	-webkit-transform: translate(0em,-.5em);
+    -moz-transform: translate(0em,-.5em);
+    -o-transform: translate(0em,-.5em);
+    -ms-transform: translate(0em,-.5em);
+    transform: translate(0em,-.5em);
+}
+
+#outreachtext{
+	position: absolute;
+	display: block;
+	text-align: center;
+	opacity: 0;
+	-webkit-transition: .5s ease-in-out;
+	-moz-transition: .5s ease-in-out; 
+	-o-transition: .5s ease-in-out; 
+	transition: .5s ease-in-out;
+	color:#FFF;
+	margin-top: 210px;
+    width: 144px;
+	margin-left:-12px
+}
+
+#outreachcontainer:hover > #outreachtext{
+    opacity: 1;
+	-webkit-transform: translate(0em,-.5em);
+    -moz-transform: translate(0em,-.5em);
+    -o-transform: translate(0em,-.5em);
+    -ms-transform: translate(0em,-.5em);
+    transform: translate(0em,-.5em);
+}
+
+#labmemberstext{
+	position: absolute;
+	display: block;
+	text-align: center;
+	opacity: 0;
+	-webkit-transition: .5s ease-in-out;
+	-moz-transition: .5s ease-in-out; 
+	-o-transition: .5s ease-in-out; 
+	transition: .5s ease-in-out;
+	color:#FFF;
+	margin-top: 130px;
+	margin-left: -12px;
+    width: 144px;
+}
+
+#labmemberscontainer:hover > #labmemberstext{
+    opacity: 1;
+	-webkit-transform: translate(0em,-.5em);
+    -moz-transform: translate(0em,-.5em);
+    -o-transform: translate(0em,-.5em);
+    -ms-transform: translate(0em,-.5em);
+    transform: translate(0em,-.5em);
+}
+
+#departmenttext{
+	position: absolute;
+	display: block;
+	text-align: center;
+	opacity: 0;
+	-webkit-transition: .5s ease-in-out;
+	-moz-transition: .5s ease-in-out; 
+	-o-transition: .5s ease-in-out; 
+	transition: .5s ease-in-out;
+	color:#FFF;
+	margin-top: 150px;
+	margin-left: -15px;
+    width: 144px;
+}
+
+#departmentcontainer:hover > #departmenttext{
+    opacity: 1;
+	-webkit-transform: translate(0em,-.5em);
+    -moz-transform: translate(0em,-.5em);
+    -o-transform: translate(0em,-.5em);
+    -ms-transform: translate(0em,-.5em);
+    transform: translate(0em,-.5em);
+}

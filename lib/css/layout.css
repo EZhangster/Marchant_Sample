@@ -1,0 +1,17 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face { font-family: 'Lithos Pro'; src: url('../fonts/lithos_pro.eot'); src: url('../fonts/lithos_pro.eot?#iefix') format('embedded-opentype'), url('../fonts/lithos_pro.svg#Lithos Pro') format('svg'), url('../fonts/lithos_pro.woff') format('woff'), url('../fonts/lithos_pro.ttf') format('truetype'); font-weight: normal; font-style: normal;}
+
+body {
+	font-family:Lithos Pro;
+    background:#000;
+	color:#000
+}
+
+.center {
+	margin-left: auto;
+	margin-right: auto;
+	width: 960px;
+	background-color: #000;
+	}

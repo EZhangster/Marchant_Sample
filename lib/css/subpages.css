@@ -1,0 +1,266 @@
+@charset "utf-8";
+/* CSS Document */
+
+.pageheader{
+	margin-top:25px;
+	padding-top:25px;
+	padding-bottom:25px;
+	margin-bottom:25px;
+	font-size:250%;
+	text-align:center;
+	border-bottom: 2px solid #3D3D3D;
+	border-top:2px solid #3D3D3D;
+	width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.calciumpageheader{
+	float: left;
+    width: 956px;
+    font-size: 250%;
+    text-align: center;
+    height: 50px;
+    border-bottom: 2px solid #3d3d3d;
+    border-top: 2px solid #3d3d3d;
+	padding-top:10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+	margin-left:10px;
+}
+
+.regenerationpageheader{
+    width: 500px;
+    font-size: 250%;
+    text-align: center;
+    height: 50px;
+    border-bottom: 2px solid #3d3d3d;
+    border-top: 2px solid #3d3d3d;
+	padding-top:10px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+.subpage{
+	color:#FFF;
+}
+
+.strong{
+	font-size:150%;
+}
+
+.maintitleheader{
+	text-align:center;
+	padding: 25px 0px 25px 0px;
+	margin-top: 25px;
+	margin-bottom: 75px;
+	margin-left:auto;
+	margin-right:auto;
+	border-bottom: 4px solid #3D3D3D;
+	border-top:4px solid #3D3D3D;
+}
+
+footer{
+	position:fixed; 
+    bottom: 0; 
+    left: 0; 
+    height: 94px;
+    width: 100%;
+    text-align: center;
+	z-index:99;
+}
+
+
+
+/*home button css*/
+
+.homebuttoncontainer{
+	float:left;
+	width:94px;
+	height:94px;
+	margin-left: 20px;
+	margin-top:-10px;
+	
+	
+}
+
+.homebuttonbox{
+	display:block;
+	float:left;
+	position:absolute;
+	margin-top:-30px;
+	margin-left:40px;
+	z-index:1;
+	height: 94px;
+	width: 94px;
+	-webkit-transition: background-image .5s ease-in-out; 
+	-moz-transition: background-image .5s ease-in-out; 
+	-o-transition: background-image .5s ease-in-out; 
+	transition: background-image .5s ease-in-out;
+	background-image:url(http://www.tc.umn.edu/~zhan0718/Marchant%20Website/assets/boxbuttons/home/home-box.png);
+	background-size: contain;
+	background-repeat:no-repeat;
+}
+
+.homebuttoncontainer:hover > .homebuttonbox{
+	background-image:url(http://www.tc.umn.edu/~zhan0718/Marchant%20Website/assets/boxbuttons/home/home-box-glow.png);
+	background-repeat:no-repeat;
+}
+
+.homebuttonarrow{
+	float:left;
+	position:absolute;
+    -webkit-transition: .5s ease-in-out; 
+	-moz-transition: .5s ease-in-out; 
+	-o-transition: .5s ease-in-out; 
+	transition: .5s ease-in-out;	
+	width:89px;
+	height:44px;
+	z-index:0;
+	background-image:url(http://www.tc.umn.edu/~zhan0718/Marchant%20Website/assets/boxbuttons/home/home-arrow.png);
+	background-repeat:no-repeat;
+	margin-top: 6px;
+    margin-left: -4px;
+}
+
+.homebuttoncontainer:hover > .homebuttonarrow{
+	background-image:url(http://www.tc.umn.edu/~zhan0718/Marchant%20Website/assets/boxbuttons/home/home-arrow-glow.png);
+	background-repeat:no-repeat;
+	-webkit-transform: translate(-1em,0em); 
+	-moz-transform: translate(-1em,0em); 
+	-o-transform: translate(-1em,0em); 
+	-ms-transform: translate(-1em,0em); 
+	transform: translate(-1em,0em);
+}
+
+.homebuttondoor{
+	float:left;
+	position:absolute;
+    -webkit-transition: .5s ease-in-out; 
+	-moz-transition: .5s ease-in-out; 
+	-o-transition: .5s ease-in-out; 
+	transition: .5s ease-in-out;	
+	width:0px;
+	background-image:url(http://www.tc.umn.edu/~zhan0718/Marchant%20Website/assets/boxbuttons/home/home-door.png);
+	background-repeat:no-repeat;
+	color:#FFF;
+	height:32px;
+	z-index:2;
+	margin-left: 77px;
+    margin-top: 19px;
+}
+
+.homebuttoncontainer:hover > .homebuttondoor{
+	width:20px;
+}
+
+.home-box-link{
+	display:block;
+	width:94px;
+	height:94px;
+}
+
+.home-arrow-link{
+	display:block;
+	width:89px;
+	height:44px;
+}
+
+.home-door-link{
+	display:block;
+	width:20px;
+	height:32px;
+}
+
+.hometext{
+	position: absolute;
+	display: block;
+	text-align: center;
+	opacity: 0;
+	-webkit-transition: .5s ease-in-out;
+	-moz-transition: .5s ease-in-out; 
+	-o-transition: .5s ease-in-out; 
+	transition: .5s ease-in-out;
+	color:#FFF;
+	margin-top: 76px;
+    margin-left: 19px;
+    width: 144px;
+}
+
+.homebuttoncontainer:hover > .hometext{
+	opacity: 1;
+	-webkit-transform: translate(0em,-.5em);
+    -moz-transform: translate(0em,-.5em);
+    -o-transform: translate(0em,-.5em);
+    -ms-transform: translate(0em,-.5em);
+    transform: translate(0em,-.5em);
+}
+
+
+/*calcium subpage css*/
+
+#calciumtext{
+	font-family: Arial, Arial, Helvetica, sans-serif;
+	text-align:left;
+	margin-top:30px;
+	width:960px;
+	font-size:130%;
+	line-height:1.75;
+	margin-left:10px;
+	margin-bottom:115px;
+}
+
+/*regeneration subpage css*/
+
+#regenerationtext{
+	font-family: Arial, Arial, Helvetica, sans-serif;
+	text-align:left;
+	margin-top:30px;
+	width:960px;
+	font-size:130%;
+	line-height:1.75;
+	margin-left:10px;
+	margin-bottom:125px;
+}
+/*contact info subpage css*/
+
+#contactinfo{
+	font-size:125%;
+	text-align:center;
+	margin-top:30px;
+}
+
+
+/*lab member subpage css*/
+
+.labmembercontainer{
+	margin-top:30px;
+	height:230px;
+	border-bottom: 1px solid #3D3D3D;
+	margin-left:175px;
+	margin-right:175px;
+}
+
+.labmemberphoto{
+	float:left;
+	height:206px;
+	width:175px;
+	vspace:15px;
+}
+
+.labmemberinfo{
+	float:left;
+	margin-left:15px;
+	
+}
+
+.labmembername{
+	font-size:150%;
+	margin-bottom:30px;
+}
+
+.labmembertext{
+	font-size:100%;
+}

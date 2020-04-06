@@ -1,0 +1,12 @@
+
+@charset "utf-8";
+/* CSS Document */
+
+.regenerationcontainer:hover > .regenerateanimation{
+	transform: scale(2);
+	width: 3.3em;
+	height: 3.3em;
+	background:#000;
+	margin-left:  60px;
+	margin-top: 60px;
+}

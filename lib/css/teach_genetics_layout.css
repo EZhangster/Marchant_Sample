@@ -1,0 +1,231 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*GENERAL LAYOUT CSS*/
+body {
+	font-family:roboto;
+	color:#000;
+	background: url(../../assets/teach-genetics-img/dnawallpaper.gif) repeat fixed center center transparent;
+	height:100%;
+}
+
+p{
+	line-height:1.5;
+	margin: 10px 0px;
+	font-size:100%;
+}
+
+.center {
+	margin-left: auto;
+	margin-right: auto;
+	width: 960px;
+	height:100%;
+	background:#fff;
+	}
+.wrapper{
+	margin: 0px 20px;
+	height:100%;
+}
+
+h1 {
+	font-size:200%;
+	font-weight:500;
+	margin:35px 0px;
+}
+
+h2 {
+	font-size:125%;
+	font-weight:500;
+	margin:5px 0px;
+}
+
+h3{
+	font-size:100%;
+	font-weight:bold;
+	margin-top:50px;
+	margin-bottom:10px;
+	font-family: 'Droid Serif', serif;
+}
+
+h5{
+	font-weight:100;
+	font-size:50%;
+	text-align:center;
+	color:#FFF;
+	background:#FFF;
+	width:960px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+a{
+	color:#339966;
+	text-decoration:none;
+}
+
+a:visited{
+	color:#339966;
+	text-decoration:none;
+}
+
+a:hover{
+	color:#330099;
+}
+
+/*GENERAL LAYOUT CSS END*/
+
+
+/*BANNER CSS*/
+.banner_container{
+	background:#339966;
+	height:120px;
+	padding:20px 0px 0px 0px;
+}
+
+.banner_header{
+	font-size:400%;
+	font-family:georgia;
+	font-weight:500;
+	margin-left:225px;
+}
+
+.banner_subheader{
+	font-size:150%;
+	margin-left:305px;
+	color: #330099;
+	margin-top:10px;
+}
+
+/*BANNER CSS END*/
+
+/*NAV CSS*/
+
+nav{
+	width:960px;
+	display: block;
+    font-size:125%;
+	font-weight:500;
+	margin:30px 0px;
+}
+
+nav a{
+	padding: 0px 10px;
+	color:#000;
+	text-decoration:none;
+	margin: 0px 40px;
+	border-radius:5px;
+	
+}
+
+nav a:hover{
+	color:#000;
+	background: #339966;
+}
+
+.active {
+	color:#000;
+	background: #339966;
+}
+
+nav a:visited{
+	color:#000;
+}
+
+/*NAV CSS END*/
+
+/*COURSE INFO CSS*/
+
+.info_container{
+	margin-bottom:30px;
+	height:100%;
+}
+
+/*COURSE INFO CSS END*/
+
+
+
+
+
+/*SPONSORS CSS*/
+	
+.sponsors_container{
+	width:960px;
+	height:150px;
+}
+
+.sponsors{
+	width:160px;
+	height:68px;
+	margin: 0px 16px;
+	float:left;
+}
+
+.sponsors_container a{
+	background:rgb(255, 0, 0); 
+	opacity:.7
+}
+
+.sponsors_container a:hover{
+	background:rgb(255, 0, 0);
+	opacity:1
+}
+
+#nsf{
+	background:url(../../assets/teach-genetics-img/nsf_hover.png) no-repeat center center;
+	margin-left:0px;
+}
+
+#nsf:hover{
+	background:url(../../assets/teach-genetics-img/nsf.png) no-repeat center center;
+}
+
+#villiers{
+	background:url(../../assets/teach-genetics-img/villiers_hover.png) no-repeat center center;
+}
+
+#villiers:hover{
+	background:url(../../assets/teach-genetics-img/villiers.png) no-repeat center center;
+}
+
+#wellcome{
+	background:url(../../assets/teach-genetics-img/wellcome_hover.png) no-repeat center center;
+}
+
+#wellcome:hover{
+	background:url(../../assets/teach-genetics-img/wellcome.png) no-repeat center center;
+}
+
+#goldsmiths{
+	background:url(../../assets/teach-genetics-img/goldsmith_hover.png) no-repeat center center;
+}
+
+#goldsmiths:hover{
+	background:url(../../assets/teach-genetics-img/goldsmith.png) no-repeat center center;
+}
+
+#umn{
+	background:url(../../assets/teach-genetics-img/umn_logo2_hover.png) no-repeat center center;
+}
+
+#umn:hover{
+	background:url(../../assets/teach-genetics-img/umn_logo2.png) no-repeat center center;
+}
+
+/*END SPONSORS CSS*/
+
+
+/*PAST CLASSES CSS*/
+
+.past-class-container{
+	padding: 0px 0px 20px;
+	margin: 0px 220px 30px;
+	background: #EAEAEA;
+	border-radius: 10px;
+}
+
+.past-class{
+	padding:10px 0px;
+}
+
+
+/*PAST CLASSES CSS END*/
